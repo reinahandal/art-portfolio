@@ -7,20 +7,20 @@
     <title>Reina Handal</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kufam&family=Major+Mono+Display&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <a name="top"></a>
     <div id="top-bar">
         <header>
-            <a href="#top"><h1 id="logo">Reina Handal</h1></a>
+            <a href="#top"><h1 id="logo" onclick="changeName(this)">Reina Handal</h1></a>
         </header>
         <nav>
             <ul>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact-me">Contact me</a></li>
+                <li><a href="#about-me" onmouseover="hover(this)" onmouseout="hoverOut(this)">About me</a></li>
+                <li><a href="#projects" onmouseover="hover(this)" onmouseout="hoverOut(this)">Projects</a></li>
+                <li><a href="#contact-me" onmouseover="hover(this)" onmouseout="hoverOut(this)">Contact me</a></li>
             </ul>
         </nav>
     </div>
@@ -33,7 +33,7 @@
         </section>
         <section class="shesh-besh" id="projects">
             <h2>Shesh Besh</h2>
-            <img src="media/shesh-besh/sheshbesh logo.jpg" class="sheshbesh-logo">
+            <img src="media/shesh-besh/sheshbesh logo.jpg" class="sheshbesh-logo" onmouseover="scale(this, 1.15)" onmouseleave="scale(this, 1)">
             <p>Palestinian culture is rich in history and heritage to say the least. Thanks to our deeply embedded roots, the younger generation has not lost sight of our traditions or ancestry; rather, they’ve integrated their traditions into modern day style.
             <br>Shesh Besh was a pop-up store that included carefully curated items that reflect Palestinian culture and heritage but with a youthful and modern soul, by featuring the work of young Palestinian artists and entrepreneurs who have turned their passion for art and culture into small businesses.
             <br> I was part of the team that created this brand and ran the store as part of our Bethlehem University Annual Business Market in 2019, and I was also responsible for the graphic design for the promotional campaign of this store.</p>
@@ -52,7 +52,7 @@
             <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FSheshBeshBU%2Fvideos%2F280330269327911%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
         </section>
         <section class="misc-gallery">
-            <img src="media/island lake 1.png" class="island-lake">
+            <img src="media/island lake 1.png" class="island-lake" onmouseover="islandLake(this)" onmouseout="islandLake2(this)">
             <div class="shaarawi">
                 <img src="media/shaarawi 1.png">
                 <img src="media/shaarawi 2.png">

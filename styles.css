@@ -52,9 +52,8 @@ main {
 }
 .about-me p {
     text-align: center;
-    line-height: 2.5rem;
+    line-height: 3rem;
     color: black;
-    font-weight: 700;
 }
 .intro {
     font-size: 1.5rem;
@@ -69,6 +68,7 @@ main {
 .sheshbesh-logo {
     border-radius: 50%;
     width: 300px;
+    transition: 500ms;
 }
 .shesh-besh h2 {
     color:#95389E;
@@ -80,6 +80,7 @@ main {
     padding: 5%;
     text-align: center;
     font-size: 0.9rem;
+    line-height: 3rem;
 }
 .sheshbesh-gallery {
     width: 90%;
