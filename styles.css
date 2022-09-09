@@ -73,7 +73,7 @@ main {
 .shesh-besh h2 {
     color:#95389E;
     font-size: 3rem;
-    padding: 2%
+    padding: 2%;
 }
 .shesh-besh p {
     color: black;
@@ -124,4 +124,42 @@ iframe {
 .tabac {
     width: 60%;
     margin: 3%
+}
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    border: #43D8C9 2px solid;
+    width: fit-content;
+    margin: 3% auto;
+
+}
+.contact-me h2 {
+    color:#95389E;
+    font-size: 2.5rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+form>div {
+    padding: 10px 0px;
+}
+input[type=submit] {
+    background-color: #95389E;
+    color:#F5F5F5;
+    width: 70px;
+    padding: 10px;
+    box-shadow: 3px 3px black;
+}
+
+input[type=text], input[type=email] {
+    border: 1px black solid;
+    height: 20px;
+}
+textarea {
+    border: 1px black solid;
 }

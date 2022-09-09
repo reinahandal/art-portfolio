@@ -13,26 +13,24 @@
 <body>
     <div id="top-bar">
         <header>
-            <h1 id="logo"><a href="#top"></a>Reina Handal</h1>
+            <h1 id="logo"><a href="#top-bar"></a>Reina Handal</h1>
         </header>
         <nav>
             <ul>
                 <li><a href="#about-me">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#">Contact me</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
             </ul>
         </nav>
     </div>
     <main>
-        <a name="top"></a>
-        <section class="about-me"><a name="about-me"></a>
+        <section class="about-me" id="about-me"><a name="about-me"></a>
             <p class="intro">Hi, I'm Reina.</p>
             <p>I'm an aspiring web developer, from Bethlehem, Palestine.</p>
             <p>In my free time, I'm also an artist!</p>
             <p>You can check out some of my works below</p>
         </section>
-        <a name="projects"></a>
-        <section class="shesh-besh">
+        <section class="shesh-besh" id="projects">
             <h2>Shesh Besh</h2>
             <img src="media/shesh-besh/sheshbesh logo.jpg" class="sheshbesh-logo">
             <p>Palestinian culture is rich in history and heritage to say the least. Thanks to our deeply embedded roots, the younger generation has not lost sight of our traditions or ancestry; rather, they’ve integrated their traditions into modern day style.
@@ -64,8 +62,33 @@
             <img src="media/taxi instagram.png" alt="yellow taxi" class="taxi">
             <img src="media/tabac sign new2.png" alt="tabac shop sign" class="tabac">
         </section>
+        <section class="contact-me" id="contact-me">
+            <h2>Contact me</h2>
+            <form action="/process" method="post">
+                <div>
+                    <label for="">First Name</label>
+                    <input type="text" name="first-name">
+                </div>
+                <div>
+                    <label for="">Last Name</label>
+                    <input type="text" name="last-name">
+                </div>
+                <div>
+                    <label for="">E-mail</label>
+                    <input type="email" name="email">
+                </div>
+                <div>
+                    <label for="">Your Message</label>
+                    <textarea name="message" cols="20" rows="4"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" name="updates" id="updates">
+                    <label for="updates">Yes, I would like to receive a weekly newsletter</label>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
