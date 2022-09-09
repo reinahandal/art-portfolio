@@ -1,0 +1,96 @@
+/* color palette: #F5F5F5, #95389E #43D8C9 */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* outline: red dotted 2px; */
+}
+body {
+    background-color: #F5F5F5;
+    font-family: 'Space Mono', monospace;
+}
+#top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+}
+#logo {
+    font-family: 'Major Mono Display', monospace;
+    color: black;
+    padding: 2%;
+    font-size: 2.5rem;
+}
+nav {
+    border-bottom: #43D8C9 2px solid;
+    border-top: #43D8C9 2px solid;
+}
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 1.7%;
+}
+li {
+    font-size: 1.25rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+main {
+    margin-top: 180px;
+}
+.about-me {
+    padding: 3%;
+}
+.about-me p {
+    text-align: center;
+    line-height: 2.5rem;
+    color: #95389E;
+    font-weight: 700;
+}
+.intro {
+    font-size: 1.5rem;
+}
+.shesh-besh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: #43D8C9 2px solid;
+    border-bottom: #43D8C9 2px solid;
+    padding-bottom: 20px;
+}
+.sheshbesh-logo {
+    border-radius: 50%;
+    width: 300px;
+}
+.shesh-besh h2 {
+    color:#95389E;
+    font-size: 3rem;
+    padding: 2%
+}
+.shesh-besh p {
+    color: black;
+    padding: 5%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.image-gallery {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.image-gallery img {
+    width: 80%;
+    margin: 20px;
+}
+
