@@ -69,6 +69,7 @@ main {
     border-radius: 50%;
     width: 300px;
     transition: 500ms;
+    overflow: hidden;
 }
 .shesh-besh h2 {
     color:#95389E;

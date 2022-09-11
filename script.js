@@ -17,5 +17,5 @@ function changeName(element) {
     element.innerText = "رينا حنضل";
     element.style.fontFamily = "'Kufam', sans-serif";
     element.style.fontWeight = "100";
-    element.style.fontSize = "2.5rem";
+    element.style.fontSize = "2.3rem";
 }
