@@ -14,7 +14,7 @@ function hoverOut(element) {
     element.style.textShadow= "none";
 }
 function changeName(element) {
-    element.innerText = "رينا حنضل";
+    element.innerText = "ريــنــا حــنــضــل";
     element.style.fontFamily = "'Kufam', sans-serif";
     element.style.fontWeight = "100";
     element.style.fontSize = "2.3rem";
